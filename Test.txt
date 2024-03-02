@@ -1,5 +1,7 @@
-Hello Balaji
+func hello(){
+    print "Hello"
+}
 
-Hello World
-
-From Stash
+func Test(){
+print "test"
+}
