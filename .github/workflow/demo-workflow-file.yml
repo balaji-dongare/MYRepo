@@ -2,8 +2,8 @@ on: [push]
 
 jobs:
    build:
-     name: Hello World
-     runs-on: ubuntu-latest 
+   name: Hello World
+   runs-on: ubuntu-latest 
    steps:
     - uses: actions/checkout@v2
     - name: write a miltiple lines
