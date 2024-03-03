@@ -2,6 +2,7 @@ func hello(){
     print "Hello"
 }
 Hello
+Update from CPick
 func Test(){
 print "test"
 }
