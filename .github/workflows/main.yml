@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: echo "This is very easy, and easy-to-understand"
+      - run: echo "This is very easy,Its easy-to-understand"
