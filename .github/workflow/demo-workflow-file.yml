@@ -1,4 +1,7 @@
-on: [push]
+name: First Workflow
+on:
+  push:
+  pull-request:
 
 jobs:
    build:
