@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+   build:
+     name: Hello World
+     runs-on: ubuntu-latest 
+   steps:
+    - uses: actions/checkout@v2
+    - name: write a miltiple lines
+      run : |
+        echo "this is demo workflow"
+        echo "this is very easy and easy-to- understand the actions"
+
+       
