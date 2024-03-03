@@ -1,13 +1,11 @@
-name: "First Workflow"
-on: [push,pull_request ]
-
+name: GitHub Actions Demo
+run-name: Testing out GitHub Actions
+on: [push]
 jobs:
   build:
-  name: Hello world
-  runs-on: ubuntu-latest
-  steps:
-  - uses: actions/checkout@v2
-  - name: Write a multi-line message
-    run: |
-      echo This demo file shows a 
-      echo very basic and easy-to-understand workflow.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "This is very easy,Its easy-to-understand"
+      - run: ls
