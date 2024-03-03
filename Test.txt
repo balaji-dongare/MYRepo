@@ -1,7 +1,7 @@
 func hello(){
     print "Hello"
 }
-Hello
+
 func Test(){
 print "test"
 }
